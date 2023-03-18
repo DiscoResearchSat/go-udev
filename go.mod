@@ -1,4 +1,4 @@
-module github.com/pilebones/go-udev
+module github.com/DiscoResearchSat/go-udev
 
 go 1.17
 

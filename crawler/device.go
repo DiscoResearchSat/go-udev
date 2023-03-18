@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/pilebones/go-udev/netlink"
+	"github.com/DiscoResearchSat/go-udev/netlink"
 )
 
 const (

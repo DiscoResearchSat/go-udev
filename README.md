@@ -1,4 +1,4 @@
-# go-udev [![Go Report Card](https://goreportcard.com/badge/github.com/pilebones/go-udev)](https://goreportcard.com/report/github.com/pilebones/go-udev) [![GitHub Repo stars](https://img.shields.io/github/stars/pilebones/go-udev)](https://somsubhra.github.io/github-release-stats/?username=pilebones&repository=go-udev) [![GoDoc](https://godoc.org/github.com/pilebones/go-udev?status.svg)](https://godoc.org/github.com/pilebones/go-udev) [![Release](https://img.shields.io/github/release/pilebones/go-udev.svg)](https://github.com/pilebones/go-udev/releases/latest) [![License](https://img.shields.io/github/license/pilebones/go-udev)](/LICENSE) ![Build Status](https://github.com/pilebones/go-udev/workflows/CI/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/pilebones/go-udev/badge.svg?branch=master)](https://coveralls.io/github/pilebones/go-udev?branch=master)
+# go-udev [![Go Report Card](https://goreportcard.com/badge/github.com/DiscoResearchSat/go-udev)](https://goreportcard.com/report/github.com/DiscoResearchSat/go-udev) [![GitHub Repo stars](https://img.shields.io/github/stars/pilebones/go-udev)](https://somsubhra.github.io/github-release-stats/?username=pilebones&repository=go-udev) [![GoDoc](https://godoc.org/github.com/DiscoResearchSat/go-udev?status.svg)](https://godoc.org/github.com/DiscoResearchSat/go-udev) [![Release](https://img.shields.io/github/release/pilebones/go-udev.svg)](https://github.com/DiscoResearchSat/go-udev/releases/latest) [![License](https://img.shields.io/github/license/pilebones/go-udev)](/LICENSE) ![Build Status](https://github.com/DiscoResearchSat/go-udev/workflows/CI/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/pilebones/go-udev/badge.svg?branch=master)](https://coveralls.io/github/pilebones/go-udev?branch=master)
 
 Simple udev implementation in Golang developed from scratch.
 This library allow to listen and manage Linux-kernel (since version 2.6.10) Netlink messages to user space (ie: `NETLINK_KOBJECT_UEVENT`).
@@ -10,7 +10,7 @@ Like [`udev`](https://en.wikipedia.org/wiki/Udev) you will be able to monitor, d
 ### Get sources
 
 ```
-go get github.com/pilebones/go-udev
+go get github.com/DiscoResearchSat/go-udev
 ```
 
 ### Unit test
@@ -119,7 +119,7 @@ Don't hesitate to notice if you detect a problem with this tool or library.
   * KObject action: http://elixir.free-electrons.com/linux/v3.12/source/lib/kobject_uevent.c#L45
 
 ## Documentation
-- [GoDoc Reference](http://godoc.org/github.com/pilebones/go-udev).
+- [GoDoc Reference](http://godoc.org/github.com/DiscoResearchSat/go-udev).
 
 ## License
 

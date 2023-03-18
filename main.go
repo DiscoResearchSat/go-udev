@@ -10,8 +10,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/pilebones/go-udev/crawler"
-	"github.com/pilebones/go-udev/netlink"
+	"github.com/DiscoResearchSat/go-udev/crawler"
+	"github.com/DiscoResearchSat/go-udev/netlink"
 
 	"github.com/kr/pretty"
 )
